@@ -1,0 +1,152 @@
+{
+  "name": "Anime TeamSpeak",
+  "description": "Anime Themes for TeamSpeak by Wargamer-Senpai",
+  "version": "0.0.1",
+  "identifier": "de.wargamer.anime.teamspeak",
+            "engines": {
+              "teamspeak": 1
+                  },
+	"homepage": "https://community.teamspeak.com/u/Wargamer",
+        	"repository": {
+        		"url": "https://github.com/Wargamer-Senpai/teamspeak5-Theme-Anime",
+        		"type": "git",
+            "directory": "teamspeak5-Theme-Anime"
+        	       },
+           "community": {
+             "server": "jset.voiceserver.me"
+           },
+  "image": "1manofCulture.gif",
+  "license": "MIT",
+          "author": {
+            "name": "Wargamer",
+            "url": "https://community.teamspeak.com/u/Wargamer",
+            "userTag": "Wargamer@myteamspeak.com"
+              },
+
+
+  "content": {
+
+        "themes": [
+                {
+                  "name": "Megumin [SFW]",
+                  "source": "Megu_SFW.css",
+                  "image": "Megu_SFW.png",
+                  "apiVersion": 1
+                },
+                {
+                "name": "Koneko [SFW]",
+                "source": "Koneko_SFW.css",
+                "image": "Koneko_SFW.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "Goku [GIF]",
+                "source": "Goku_GIF.css",
+                "image": "Goku_GIF.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "Rem [SFW]",
+                "source": "Rem_SFW.css",
+                "image": "Rem_Thumbn.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "002 [SFW]",
+                "source": "ZeroTwo_SFW.css",
+                "image": "ZeroTwo_SFW.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "Lucy [SFW]",
+                "source": "Lucy_SFW.css",
+                "image": "Lucy_SFW.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "Darkness [SFW]",
+                "source": "Darkness_SFW.css",
+                "image": "Darkness_SFW.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "Akeno [SFW]",
+                "source": "Akeno_SFW.css",
+                "image": "Akeno_SFW.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "Morgania [SFW]",
+                "source": "Morgania_SFW.css",
+                "image": "Morgania_SFW.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "Shiro [SFW]",
+                "source": "Shiro_SFW.css",
+                "image": "Shiro_SFW.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "Jibril [SFW]",
+                "source": "Jibril_SFW.css",
+                "image": "Jibril_SFW.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "Tsunade [SFW]",
+                "source": "Tsunade_SFW.css",
+                "image": "Tsunade_SFW.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "One Punch Man",
+                "source": "One_punch_man.css",
+                "image": "One_punch_man.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "Kenma",
+                "source": "Kenma.css",
+                "image": "Kenma.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "Rias [SFW]",
+                "source": "Rias_SFW.css",
+                "image": "Rias_SFW.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "Ichigo Shikai",
+                "source": "Ichigo.css",
+                "image": "Ichigo.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "Aizen Third Fusion",
+                "source": "Aizen.css",
+                "image": "Aizen.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "Madara Uchiha",
+                "source": "Madara.css",
+                "image": "Madara.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "Asta Half Devil Form",
+                "source": "Asta.css",
+                "image": "Asta.png",
+                "apiVersion": 1
+                },
+                {
+                "name": "Erza [SFW]",
+                "source": "Erza_SFW.css",
+                "image": "Erza_SFW.png",
+                "apiVersion": 1
+                }
+         ]
+    }
+}
