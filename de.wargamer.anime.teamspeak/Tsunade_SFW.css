@@ -1,0 +1,36 @@
+@import url(1Default.css);
+/*#B03063*/
+
+:root {
+  --theMain-Color: #36d05f;
+  --custom-color-accent-light: var(--theMain-Color); /*main accent*/
+  --custom-color-accent-dark: var(--theMain-Color);
+  --custom-color-slider1: var(--theMain-Color);
+  --custom-color-slider2: var(--theMain-Color);
+  --tsv-font-subtitle-color: var(--theMain-Color) !important; /* for spacer etc...*/
+  --tsv-chat-link-color: #168e00 !important; /* Link in chat */
+  --tsv-highlight-color: #2a8a43 !important;
+}
+
+/*Image Background Sever Channel Root*/
+.ts-server-tree-item-root {
+    background-image:url(Tsunade_SFW.png);
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+/*Image Background at Dashboard and Settings*/
+.ts-background-hexes-container {
+  background-image:url(),
+                   url(Tsunade_small.png);
+
+
+    background-position: 50% 106%, -3% 100% ;
+    background-repeat: no-repeat;
+    background-size: 50%, 17% 50% ;
+}
+
+/*Remove image from chat Background*/
+.ts-chat-container .ts-background-hexes-container {
+    background: url();
+}

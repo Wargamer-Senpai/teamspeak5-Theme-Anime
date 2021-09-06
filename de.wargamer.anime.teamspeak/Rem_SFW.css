@@ -1,0 +1,34 @@
+@import url(1Default.css);
+/*#7C98E0*/
+
+:root {
+  --custom-color-accent-light: #7C98E0; /*main accent*/
+  --custom-color-accent-dark: #7C98E0;
+  --custom-color-slider1: #7C98E0;
+  --tsv-font-subtitle-color: #7C98E0 !important; /* for spacer etc...*/
+  --tsv-chat-link-color: #1e4dc3 !important; /* Link in chat */
+  --tsv-highlight-color: #1f5eff !important;
+}
+
+/*Image Background Sever Channel Root*/
+.ts-server-tree-item-root {
+    background-image:url(Rem_backgr.png);  /*https://i.imgur.com/KOnuRG9.png*/
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+/*Image Background at Dashboard and Settings*/
+.ts-background-hexes-container {
+  background-image:url(),
+                   url(Rem_small.png);
+
+
+    background-position: 50% 106%, -5% 100% ;
+    background-repeat: no-repeat;
+    background-size: 50%, 23% 50% ;
+}
+
+/*Remove image from chat Background*/
+.ts-chat-container .ts-background-hexes-container {
+    background: url();
+}

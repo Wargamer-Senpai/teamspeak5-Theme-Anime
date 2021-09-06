@@ -1,0 +1,21 @@
+@import url(1Default.css);
+/*#B03063*/
+
+:root {
+  --theMain-Color: #7c3fa7;
+  --custom-color-accent-light: var(--theMain-Color); /*main accent*/
+  --custom-color-accent-dark: var(--theMain-Color);
+  --custom-color-slider1: var(--theMain-Color);
+  --custom-color-slider2: var(--theMain-Color);
+  --tsv-font-subtitle-color: var(--theMain-Color) !important; /* for spacer etc...*/
+  --tsv-chat-link-color: #d800ff !important; /* Link in chat */
+  --tsv-highlight-color: #da9fff !important;
+}
+
+/*Image Background   ~Wargamer-Senpai*/
+.ts-server-tree-item-root {
+    background-image:url(https://i.imgur.com/jmQvFzU.png);
+    background-position:center;
+    background-repeat: no-repeat;
+
+}

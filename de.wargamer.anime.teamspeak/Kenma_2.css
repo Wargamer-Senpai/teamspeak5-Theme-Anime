@@ -1,0 +1,36 @@
+@import url(1Default.css);
+/*#B03063*/
+
+:root {
+  --theMain-Color: #bd3e3a;
+  --custom-color-accent-light: var(--theMain-Color); /*main accent*/
+  --custom-color-accent-dark: var(--theMain-Color);
+  --custom-color-slider1: var(--theMain-Color);
+  --custom-color-slider2: var(--theMain-Color);
+  --tsv-font-subtitle-color: var(--theMain-Color) !important; /* for spacer etc...*/
+  --tsv-chat-link-color: #ff0600 !important; /* Link in chat */
+  --tsv-highlight-color: #bbda14 !important;
+}
+
+/*Image Background Sever Channel Root*/
+.ts-server-tree-item-root {
+    background-image:url(Kenma.png);
+    background-position:center;
+    background-repeat: no-repeat;
+
+}
+/*Image Background at Dashboard and Settings*/
+.ts-background-hexes-container {
+  background-image:url(),
+                   url(Kemna_small.png);
+
+
+    background-position: 50% 106%, -3% 100% ;
+    background-repeat: no-repeat;
+    background-size: 50%, 17% 50% ;
+}
+
+/*Remove image from chat Background*/
+.ts-chat-container .ts-background-hexes-container {
+    background: url();
+}
