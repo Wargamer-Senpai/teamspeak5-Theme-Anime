@@ -10,10 +10,10 @@
         	"repository": {
         		"url": "https://github.com/Wargamer-Senpai/teamspeak5-Theme-Anime",
         		"type": "git",
-            "directory": "teamspeak5-Theme-Anime"
+            "directory": "de.wargamer.anime.teamspeak"
         	       },
            "community": {
-             "server": "jset.voiceserver.me"
+             "server": "jset.xyz"
            },
   "image": "1manofCulture.gif",
   "license": "MIT",
