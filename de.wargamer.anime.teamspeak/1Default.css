@@ -1,4 +1,8 @@
-
+/*Change opacity of Channels*/
+.ts-server-tree-item-background-no-image {
+    background: linear-gradient(90deg,var(--tsv-shaded-bg) 50% 0,var(--tsv-contrast-bg) var(--tsv-padding-h) 5%,var(--tsv-shaded-bg) 0%,transparent);
+    opacity: 75%;
+  }
 :root { /* custom value*/
     /* accent color in hsl used to compute shades automatically */
     /* default: 36, 94%, 48% */
