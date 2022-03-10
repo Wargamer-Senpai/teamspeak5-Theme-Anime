@@ -24,7 +24,9 @@
   background-image: url(""),
                     url("Rias_Small.png");
   background-position: 50% 106%, -0% 100%;
-  background-repeat: no-repeat; background-size: 50%, 20% 37%; }
+  background-repeat: no-repeat;
+  background-size: 50%, 20% auto;
+}
 
 /*Remove image from chat Background*/
 .ts-chat-container .ts-background-hexes-container {

@@ -28,7 +28,7 @@
 
     background-position: 50% 142%, -4% 100% ;
     background-repeat: no-repeat;
-    background-size: 50%, 19% 50% ;
+    background-size: 50%, 19% auto;
 }
 
 /*Remove image from chat Background*/
