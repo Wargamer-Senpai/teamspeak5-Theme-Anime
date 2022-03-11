@@ -31,7 +31,7 @@ div.spacer span.tsv-tree-preserve-spaces{
                    url(asta_small.png);
     background-position: bottom, -04% ;
     background-repeat: no-repeat;
-    background-size: 50%, 20% 50% ;
+    background-size: 50%, 20% auto;
 }
 /*Remove image from chat Background*/
 .ts-chat-container .ts-background-hexes-container {

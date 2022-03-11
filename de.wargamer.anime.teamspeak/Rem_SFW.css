@@ -18,14 +18,14 @@
 
 }
 /*Image Background at Dashboard and Settings*/
-.ts-background-hexes-container {
+.ts-background-hexes-container { 
   background-image:url(),
                    url(Rem_small.png);
 
 
-    background-position: 50% 106%, -5% 100% ;
-    background-repeat: no-repeat;
-    background-size: 50%, 23% 50% ;
+background-position: 50% 106%, -5% 100%;
+background-repeat: no-repeat;
+background-size: 50%, 23% auto;
 }
 
 /*Remove image from chat Background*/

@@ -21,12 +21,12 @@
 /*Image Background at Dashboard and Settings*/
 .ts-background-hexes-container {
   background-image:url(),
-                   url(Kenoko_small.png);
+                   url(Koneko_small.png);
 
 
     background-position: 50% 106%, -9% 100% ;
     background-repeat: no-repeat;
-    background-size: 50%, 23% 50% ;
+    background-size: 50%, 23% auto;
 }
 
 /*Remove image from chat Background*/

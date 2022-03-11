@@ -11,7 +11,7 @@
 
 /*Image Background Sever Channel Root*/
 .ts-server-tree-item-root {
-    background-image:url(Megu_SFW.png);
+    background-image:url(Megumin_SFW.png);
     background-position:center;
     background-repeat: no-repeat;
     background-size: 99%;
@@ -24,7 +24,7 @@
                    url(Megumin_small.png);
     background-position: bottom, -01% ;
     background-repeat: no-repeat;
-    background-size: 50%, 15% 50% ;
+    background-size: 50%, 15% auto;
 }
 /*Remove image from chat Background*/
 .ts-chat-container .ts-background-hexes-container {
