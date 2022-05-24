@@ -15,7 +15,7 @@
     background-image:url(Rem_backgr.png);  /*https://i.imgur.com/KOnuRG9.png*/
     background-position:center;
     background-repeat: no-repeat;
-
+    background-position: 50% 100%;
 }
 /*Image Background at Dashboard and Settings*/
 .ts-background-hexes-container { 
