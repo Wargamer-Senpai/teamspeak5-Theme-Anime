@@ -10,7 +10,13 @@
     --saturation: 94%;
     --lightness: 48%;
 }
-
+.ts-toggle-inner{
+	background-color: #7d7373 !important; 
+}
+.ts-toggle .checked{
+	background-color: calc(var(--theMain-Color) / 2)
+	/*#ff7070; !important*/
+}
 :root { /* theme custom values */
     --lightness-dark: calc(var(--lightness) - 8%);
     --lightness-really-dark: calc(var(--lightness) - 30%);
@@ -253,3 +259,16 @@ div.channel-commander > div > :is(.tsv-icon-client-normal, .tsv-icon-client-voic
 div.channel-commander ellipse {
     --tsv-icon-tint: var(--custom-color-channel-commander-dark) !important;
 }
+
+
+/*Credits: LeonMarcelHD (his code)*/
+/* SIDEBAR HEADER */
+
+.tsv-highlight.tsv-header {
+    background: linear-gradient(to bottom, transparent 0%, var(--custom-color-accent-dark) 33%, var(--custom-color-accent-light) 100%);
+}
+
+.tsv-highlight.tsv-header:before {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.300) 80%, var(--custom-color-accent-light) 100%);
+}
+
