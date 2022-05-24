@@ -17,7 +17,7 @@
     background-image:url(One_punch_man.png);
     background-position:center;
     background-repeat: no-repeat;
-
+    background-position: 50% 101%;
 }
 /*Image Background at Dashboard and Settings*/
 .ts-background-hexes-container {

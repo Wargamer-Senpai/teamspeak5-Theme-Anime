@@ -2,52 +2,46 @@
 /*#B03063*/
 
 :root {
-  --theMain-Color: #a9242a ;
-  --custom-color-accent-light: #f1000a; /*main accent*/
+  --theMain-Color: #a9242a;
+  --custom-color-accent-light: var(--theMain-Color);
+  /*main accent*/
   --custom-color-accent-dark: var(--theMain-Color);
   --custom-color-slider1: var(--theMain-Color);
   --custom-color-slider2: var(--theMain-Color);
-  --tsv-font-subtitle-color: var(--theMain-Color) !important; /* for spacer etc...*/
-  --tsv-chat-link-color: #7b1d21 !important; /* Link in chat */
+  --tsv-font-subtitle-color: var(--theMain-Color) !important;
+  /* for spacer etc...*/
+  --tsv-chat-link-color: #7b1d21 !important;
+  /* Link in chat */
   --tsv-highlight-color: #a9242a !important;
 }
 
 /*Set spacer other color, if not wanted delet or Comment out ! Else color of theme*/
-div.spacer span.tsv-tree-preserve-spaces{
+div.spacer span.tsv-tree-preserve-spaces {
   color: #929292 !important;
 }
 
 /*Image Background Sever Channel Root*/
 .ts-server-tree-item-root {
-    background-image:url(Asta.png);
-    background-position:center;
-    background-repeat: no-repeat;
-
+  background-image: url(Asta.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: 100% 100%;
 }
 
 /*Image Background at Dashboard and Settings*/
 .ts-background-hexes-container {
-  background-image:url(Asta-black-clover-logo.png),
-                   url(asta_small.png);
-    background-position: bottom, -04% ;
-    background-repeat: no-repeat;
-    background-size: 50%, 20% auto;
+  background-image: url(Asta-black-clover-logo.png),
+    url(asta_small.png);
+  background-position: bottom, -04%;
+  background-repeat: no-repeat;
+  background-size: 50%, 20% 50%;
 }
+
 /*Remove image from chat Background*/
 .ts-chat-container .ts-background-hexes-container {
-    background: url();
+  background: url();
 }
-
-/* SIDEBAR HEADER */
-
-.tsv-highlight.tsv-header {
-  background: linear-gradient(to bottom, #ff000000 0%, var(--custom-color-accent-dark) 100%, var(--custom-color-accent-light) 100%) !important;
-}
-
-.tsv-highlight.tsv-header:before {
-  background: linear-gradient(to bottom, rgb(0 0 0 / 30%) 90%, var(--custom-color-accent-light) 100%) !important;
-}
-
 
 /* Does not realy fit, need to find better icon */
 /*Change Icons from Rooms*/

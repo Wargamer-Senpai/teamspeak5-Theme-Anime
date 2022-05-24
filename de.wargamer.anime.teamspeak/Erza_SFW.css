@@ -12,13 +12,15 @@
   --tsv-highlight-color: #9E424A !important;
 }
 
-/*Image Background   ~Wargamer-Senpai*/
+/*Image Background Sever Channel Root*/
 .ts-server-tree-item-root {
     background-image:url(Erza_SFW.png);
     background-position:center;
     background-repeat: no-repeat;
-
+    background-size: 70%;
+    background-position: 90% 100%
 }
+
 /*Image Background at Dashboard and Settings*/
 .ts-background-hexes-container {
   background-image:url(Erza_happy.png),

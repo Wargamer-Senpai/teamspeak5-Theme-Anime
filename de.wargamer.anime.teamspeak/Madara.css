@@ -17,7 +17,8 @@
     background-image:url(Madara.png);
     background-position:center;
     background-repeat: no-repeat;
-
+    background-size: 85%;
+    background-position: 200% 100%;
 }
 /*Image Background at Dashboard and Settings*/
 .ts-background-hexes-container {
