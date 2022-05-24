@@ -35,3 +35,14 @@
 .ts-chat-container .ts-background-hexes-container {
     background: url();
 }
+
+
+/* SIDEBAR HEADER */
+
+.tsv-highlight.tsv-header {
+  background: linear-gradient(to bottom, #ff000000 0%, var(--custom-color-accent-dark) 90%, var(--custom-color-accent-light) 100%);
+}
+
+.tsv-highlight.tsv-header:before {
+  background: linear-gradient(to bottom, rgb(0 0 0 / 30%) 90%, var(--custom-color-accent-light) 100%);
+}

@@ -3,7 +3,7 @@
 
 :root {
   --theMain-Color: #a9242a ;
-  --custom-color-accent-light: var(--theMain-Color); /*main accent*/
+  --custom-color-accent-light: #f1000a; /*main accent*/
   --custom-color-accent-dark: var(--theMain-Color);
   --custom-color-slider1: var(--theMain-Color);
   --custom-color-slider2: var(--theMain-Color);
@@ -37,6 +37,17 @@ div.spacer span.tsv-tree-preserve-spaces{
 .ts-chat-container .ts-background-hexes-container {
     background: url();
 }
+
+/* SIDEBAR HEADER */
+
+.tsv-highlight.tsv-header {
+  background: linear-gradient(to bottom, #ff000000 0%, var(--custom-color-accent-dark) 100%, var(--custom-color-accent-light) 100%) !important;
+}
+
+.tsv-highlight.tsv-header:before {
+  background: linear-gradient(to bottom, rgb(0 0 0 / 30%) 90%, var(--custom-color-accent-light) 100%) !important;
+}
+
 
 /* Does not realy fit, need to find better icon */
 /*Change Icons from Rooms*/
