@@ -40,6 +40,11 @@
 }
 
 /*Set spacer other color, if not wanted delet or Comment out ! Else color of theme*/
+
 div.spacer span.tsv-tree-preserve-spaces {
-  color: #ffffff !important;
+  color: #8f8c8c !important;
+}
+
+.ts-server-tree-channel-info {
+  color: #db3d8d !important;
 }
