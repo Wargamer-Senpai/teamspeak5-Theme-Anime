@@ -1,40 +1,45 @@
 @import url(1Default.css);
 
 :root {
-  --custom-color-accent-light: #ff2323; /*main accent*/
+  --custom-color-accent-light: #ff2323;
+  /*main accent*/
   --custom-color-accent-dark: #fd434a;
   --custom-color-slider1: #ff0000;
   --custom-color-slider2: #fa17ca;
-  --tsv-font-subtitle-color: #ec1414 !important; /* for spacer etc...*/
+  --tsv-font-subtitle-color: #ec1414 !important;
+  /* for spacer etc...*/
   --tsv-highlight-color: #ffb0b0 !important;
 }
 
 /*Image Background Sever Channel Root*/
 .ts-server-tree-item-root {
-    background-image:url(Megumin_SFW.png);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: 99%;
-
+  background-image: url(Megu_SFW.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 99%;
+  background-position: 0% 103%;
 }
 
 /*Image Background at Dashboard and Settings*/
 .ts-background-hexes-container {
-  background-image:url(Megumin_konosuba_logo.png),
-                   url(Megumin_small.png);
-    background-position: bottom, -01% ;
-    background-repeat: no-repeat;
-    background-size: 50%, 15% auto;
+  background-image: url(Megumin_konosuba_logo.png),
+    url(Megumin_small.png);
+  background-position: bottom, -01%;
+  background-repeat: no-repeat;
+  background-size: 50%, 15% 50%;
 }
+
 /*Remove image from chat Background*/
 .ts-chat-container .ts-background-hexes-container {
-    background: url();
+  background: url();
 }
+
 /*Set spacer other color, if not wanted delet or Comment out ! Else color of theme*/
-div.spacer span.tsv-tree-preserve-spaces{
+div.spacer span.tsv-tree-preserve-spaces {
   color: #e99b33 !important;
   /*#d6b138*/
 }
+
 /*Channel Name Color*/
 .ts-server-tree-channel-info {
   color: #ffbc63 !important;
