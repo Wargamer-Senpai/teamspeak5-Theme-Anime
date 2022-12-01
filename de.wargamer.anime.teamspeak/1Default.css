@@ -82,12 +82,15 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #f52f2f !important;
+    filter: brightness(1.1) !important;
 }
 
 /*chat scrollbar*/
 .ts-chunk-scroll-track__thumb {
     background: var(--custom-color-accent-light) !important;
+}
+.ts-chunk-scroll-track__thumb:active {
+    filter: brightness(1.1) !important;
 }
 
 .ts-chunk-scroll-track__chunks__chunk {
