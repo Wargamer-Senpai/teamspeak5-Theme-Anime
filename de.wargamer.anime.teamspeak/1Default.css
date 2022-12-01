@@ -81,6 +81,20 @@
     background-color: var(--custom-color-accent-light) !important;
 }
 
+::-webkit-scrollbar-thumb:hover {
+    background: #f52f2f !important;
+}
+
+/*chat scrollbar*/
+.ts-chunk-scroll-track__thumb {
+    background: var(--custom-color-accent-light) !important;
+}
+
+.ts-chunk-scroll-track__chunks__chunk {
+    background: #1C2538 !important;
+}
+
+
 .tsv-icon-contact-status-favorite, .tsv-icon-chat-room-status-favorite {
     z-index: 10;
     left: 13px !important;
