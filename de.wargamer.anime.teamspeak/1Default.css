@@ -224,18 +224,23 @@
     border-radius: var(--tsv-border-radius);
 }
 
-.ts-chat-room-event-detailed .ts-chat-room-event-bubble.self-mention {
+/*.ts-chat-room-event-detailed .ts-chat-room-event-bubble.self-mention {
     background: transparent;
-}
+}*/
 
 .ts-chat-room-event-detailed .ts-chat-room-event-bubble.self-mention::before {
     content: none;
 }
 
+
 .ts-chat-room-event-bubble.self-mention {
-    color: var(--tsv-chat-mention-bg);
+    font-weight: 600;
+    color: black;
 }
 
+.ts-chat-message-system-body {
+    --ts-chat-system-message-color: #dfdfdf0c;
+}
 .ts-chat-message-system-body {
     --ts-chat-system-message-color: #dfdfdf0c;
 }
