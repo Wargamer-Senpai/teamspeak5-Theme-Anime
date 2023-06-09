@@ -25,9 +25,9 @@
 <h3>Install via Theme TS5 Manager (Windows only)</h3>
 
 
-<p>- Donwload installer from <a href="https://github.com/Wargamer-Senpai/updateTS5Themes/releases/latest/download/TS5ThemeManager.exe">here</a> (<a href="https://github.com/Wargamer-Senpai/TS5-Theme-Manager">Github Project</a>)</p>
+- Donwload installer from <a href="https://github.com/Wargamer-Senpai/updateTS5Themes/releases/latest/download/TS5ThemeManager.exe">here</a> (<a href="https://github.com/Wargamer-Senpai/TS5-Theme-Manager">Github Project</a>)
   
-<p>- execute installer and follow installation, you can choose between multiple themes when installing</p>
+- execute installer and follow installation, you can choose between multiple themes when installing
 
 <img src="https://user-images.githubusercontent.com/77844672/185554262-1a36507a-0219-4299-9bbc-cdfff4a79517.png" width="27%" height="27%">
 
@@ -35,14 +35,14 @@
  <br> <br>  
 <h3>How to install manually</h3>
 
-<p>- Download the file <a href="https://github.com/Wargamer-Senpai/teamspeak5-Theme-Anime/releases/latest/download/de.wargamer.anime.teamspeak.zip">here </a> from GitHub</p> 
-<p>- put the "de.wargamer.anime.teamspeak"  folder in<p>
+- Download the latest release from <a href="https://github.com/Wargamer-Senpai/teamspeak5-Theme-Anime/releases/latest/download/de.wargamer.anime.teamspeak.zip">here </a> 
+- extract and put the "de.wargamer.anime.teamspeak" folder in
 
-- <b>Windows:</b> <i> %appdata%\TeamSpeak\Default\extensions </i>
+  - <b>Windows:</b> <i> %appdata%\TeamSpeak\Default\extensions </i>
 
--  <b>Mac:</b> <i> ~/Library/Preferences/TeamSpeak/Default/extensions </i>
+  - <b>Mac:</b> <i> ~/Library/Preferences/TeamSpeak/Default/extensions </i>
 
--  <b>Linux:</b> <i> ~/.config/TeamSpeak/Default/extensions </i>
+  - <b>Linux:</b> <i> ~/.config/TeamSpeak/Default/extensions </i>
 
 
 - After successfully Downloading and Placing the folder in the Directory, go in TeamSpeak to <br> <i>Settings > Apperance</i>  and activated the option <i>User Themes</i>
