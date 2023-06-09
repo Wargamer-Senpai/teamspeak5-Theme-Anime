@@ -12,11 +12,11 @@
 
 
 <h3>This little Theme Pack contains:</h3>
--changed backgrounds behind the Channels<br>
--changed accent colors to fit to the background<br>
-(-with chat bubbles)<br>
--changed the favorite icon<br>
--changed some Group Chat Icons<br><br>
+
+- changed backgrounds behind the Channels<br>
+- changed accent colors to fit to the background<br>
+- changed the favorite icon<br>
+- changed some Group Chat Icons<br><br>
 
 
 <h2>How to install</h2>
