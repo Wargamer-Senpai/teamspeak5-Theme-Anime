@@ -43,13 +43,13 @@
         "apiVersion": 1
       },
       {
-        "name": "Rem",
+        "name": "Rem_",
         "source": "Rem.css",
         "image": "Rem_Thumbn.png",
         "apiVersion": 1
       },
       {
-        "name": "002",
+        "name": "002_",
         "source": "ZeroTwo.css",
         "image": "ZeroTwo.png",
         "apiVersion": 1
