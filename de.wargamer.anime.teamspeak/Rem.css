@@ -3,6 +3,7 @@
 
 :root {
   --custom-color-accent-light: #7C98E0; /*main accent*/
+  --custom-color-accent2: #afdcff;
   --custom-color-accent-dark: #7C98E0;
   --custom-color-slider1: #7C98E0;
   --tsv-font-subtitle-color: #7C98E0 !important; /* for spacer etc...*/
@@ -12,20 +13,20 @@
 
 /*Image Background Sever Channel Root*/
 .ts-server-tree-item-root {
-    background-image:url(Rem_backgr.png);  /*https://i.imgur.com/KOnuRG9.png*/
-    background-position:center;
-    background-repeat: no-repeat;
-    background-position: 50% 100%;
+    background-image:url(Rem_backgr.png) !important;
+    background-position:center !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 100% !important;
 }
 /*Image Background at Dashboard and Settings*/
-.ts-background-hexes-container { 
+.tsv-settings-categories { 
   background-image:url(),
-                   url(Rem_small.png);
+                   url(Rem_small.png) !important;
 
 
-background-position: 50% 106%, -5% 100%;
-background-repeat: no-repeat;
-background-size: 50%, 23% auto;
+background-position: 50% 106%, 0% 100% !important;
+background-repeat: no-repeat !important;
+background-size: 50%, 100% auto !important;
 }
 
 /*Remove image from chat Background*/
