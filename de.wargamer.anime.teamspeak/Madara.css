@@ -3,6 +3,7 @@
 
 :root {
   --theMain-Color: #7c3fa7 ;
+  --custom-color-accent2: #9836ab;
   --custom-color-accent-light: var(--theMain-Color); /*main accent*/
   --custom-color-accent-dark: var(--theMain-Color);
   --custom-color-slider1: var(--theMain-Color);
@@ -14,21 +15,21 @@
 
 /*Image Background Sever Channel Root*/
 .ts-server-tree-item-root {
-    background-image:url(Madara.png);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: 85%;
-    background-position: 200% 100%;
+    background-image:url(Madara.png) !important;
+    background-position:center !important;
+    background-repeat: no-repeat !important;
+    background-size: 85% !important;
+    background-position: 200% 100% !important;
 }
 /*Image Background at Dashboard and Settings*/
-.ts-background-hexes-container {
+.tsv-settings-categories {
   background-image:url(),
-                   url(Madara_small.png);
+                   url(Madara_small.png) !important;
 
 
-    background-position: 50% 106%, -0% 100% ;
-    background-repeat: no-repeat;
-    background-size: 50%, 15% auto;
+    background-position: 50% 106%, 100% 100% !important;
+    background-repeat: no-repeat !important;
+    background-size: 50%, 70% auto !important;
 }
 
 /*Remove image from chat Background*/
