@@ -3,6 +3,7 @@
 
 :root {
   --theMain-Color: #7c3fa7;
+  --custom-color-accent2: #b673c9;
   --custom-color-accent-light: var(--theMain-Color); /*main accent*/
   --custom-color-accent-dark: var(--theMain-Color);
   --custom-color-slider1: var(--theMain-Color);
@@ -27,7 +28,7 @@
 
     background-position: 50% 106%, -9% 100% !important;
     background-repeat: no-repeat !important;
-    background-size: 50%, 23% auto !important;
+    background-size: 50%, 100% auto !important;
 }
 
 /*Remove image from chat Background*/
