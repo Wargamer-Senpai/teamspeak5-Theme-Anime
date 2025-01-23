@@ -1,23 +1,29 @@
 /*Change opacity of Channels*/
 .ts-server-tree-item-background-no-image {
-    background: linear-gradient(90deg,var(--tsv-shaded-bg) 50% 0,var(--tsv-contrast-bg) var(--tsv-padding-h) 5%,var(--tsv-shaded-bg) 0%,transparent);
+    background: linear-gradient(90deg, var(--tsv-shaded-bg) 50% 0, var(--tsv-contrast-bg) var(--tsv-padding-h) 5%, var(--tsv-shaded-bg) 0%, transparent);
     opacity: 75%;
-  }
-:root { /* custom value*/
+}
+
+:root {
+    /* custom value*/
     /* accent color in hsl used to compute shades automatically */
     /* default: 36, 94%, 48% */
     --hue: 36;
     --saturation: 94%;
     --lightness: 48%;
 }
-.ts-toggle-inner{
-	background-color: #7d7373 !important; 
+
+.ts-toggle-inner {
+    background-color: #7d7373 !important;
 }
-.ts-toggle .checked{
-	background-color: calc(var(--theMain-Color) / 2)
-	/*#ff7070; !important*/
+
+.ts-toggle .checked {
+    background-color: calc(var(--theMain-Color) / 2)
+        /*#ff7070; !important*/
 }
-:root { /* theme custom values */
+
+:root {
+    /* theme custom values */
     --lightness-dark: calc(var(--lightness) - 8%);
     --lightness-really-dark: calc(var(--lightness) - 30%);
     --custom-color-light-grey: #2b3346;
@@ -26,6 +32,7 @@
     --custom-color-off-white: #000000;
     --custom-color-accent-light: #ff2323;
     --custom-color-accent-dark: #fd434a;
+    --custom-color-accent2: #e84e4e;
     --custom-color-slider1: #ff0000;
     --custom-color-slider2: #fa17ca;
     --custom-color-secondary-text: #bebebe;
@@ -37,7 +44,8 @@
     --custom-color-channel-commander-dark: #8d7007;
 }
 
-:root { /* override everywhere (bad practice ) */
+:root {
+    /* override everywhere (bad practice ) */
     --tsv-icon-tint: var(--custom-color-accent-light) !important;
     --tsv-icon-tint2: var(--custom-color-accent-light) !important;
     --tsv-tint: var(--custom-color-accent-light) !important;
@@ -57,7 +65,15 @@
     --tsv-chat-link-color: #044f6b !important;
     --ts-chat-system-highlight-text-color: var(--custom-color-accent-light) !important;
     --tsv-content-branding-fancy-bg: var(--tsv-content-branding-bg) !important;
+    --ts-third-font-color: var(--custom-color-accent2) !important;
+}
 
+.ts-server-tree-item-leaf.client.self {
+    color: var(--custom-color-accent-light) !important;
+}
+
+.ts-title-logo {
+    --tsv-icon-tint: var(--custom-color-accent2) !important;
 }
 
 .ts-checkbox-checkmark-path {
@@ -100,11 +116,12 @@
 
 .tsv-icon-contact-status-favorite, .tsv-icon-chat-room-status-favorite {
     z-index: 10;
-    left: 13px !important;
+    left: -5px !important;
     top: 4px !important;
-    stroke: rgba(0,0,0,.7);
+    stroke: rgba(0, 0, 0, .7);
     stroke-width: 1.3px;
     transform: scale(1);
+
 }
 
 .tsv-view-banner :is(.tsv-icon-contact-status-favorite, .tsv-icon-chat-room-status-favorite) {
