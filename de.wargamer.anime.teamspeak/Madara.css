@@ -68,12 +68,3 @@ d: path("M 173.003 2.685 C -0.828 29.885 -59.556 241.163 77.014 348.012 C 154.84
       }
 
 
-/* SIDEBAR HEADER */
-
-.tsv-highlight.tsv-header {
-  background: linear-gradient(to bottom, #ff000000 0%, var(--custom-color-accent-dark) 60%, var(--custom-color-accent-light) 100%) !important;
-}
-
-.tsv-highlight.tsv-header:before {
-  background: linear-gradient(to bottom, rgb(0 0 0 / 30%) 90%, var(--custom-color-accent-light) 100%) !important;
-}
