@@ -25,15 +25,15 @@
   "content": {
     "themes": [
       {
-        "name": "Megumin [SFW]",
-        "source": "Megumin_SFW.css",
-        "image": "Megumin_SFW.png",
+        "name": "Megumin",
+        "source": "Megumin.css",
+        "image": "Megumin.png",
         "apiVersion": 1
       },
       {
-        "name": "Koneko [SFW]",
-        "source": "Koneko_SFW.css",
-        "image": "Koneko_SFW.png",
+        "name": "Koneko",
+        "source": "Koneko.css",
+        "image": "Koneko.png",
         "apiVersion": 1
       },
       {
@@ -43,57 +43,57 @@
         "apiVersion": 1
       },
       {
-        "name": "Rem [SFW]",
-        "source": "Rem_SFW.css",
+        "name": "Rem",
+        "source": "Rem.css",
         "image": "Rem_Thumbn.png",
         "apiVersion": 1
       },
       {
-        "name": "002 [SFW]",
-        "source": "ZeroTwo_SFW.css",
-        "image": "ZeroTwo_SFW.png",
+        "name": "002",
+        "source": "ZeroTwo.css",
+        "image": "ZeroTwo.png",
         "apiVersion": 1
       },
       {
-        "name": "Lucy [SFW]",
-        "source": "Lucy_SFW.css",
-        "image": "Lucy_SFW.png",
+        "name": "Lucy",
+        "source": "Lucy.css",
+        "image": "Lucy.png",
         "apiVersion": 1
       },
       {
-        "name": "Darkness [SFW]",
-        "source": "Darkness_SFW.css",
-        "image": "Darkness_SFW.png",
+        "name": "Darkness",
+        "source": "Darkness.css",
+        "image": "Darkness.png",
         "apiVersion": 1
       },
       {
-        "name": "Akeno [SFW]",
-        "source": "Akeno_SFW.css",
-        "image": "Akeno_SFW.png",
+        "name": "Akeno",
+        "source": "Akeno.css",
+        "image": "Akeno.png",
         "apiVersion": 1
       },
       {
-        "name": "Morgania [SFW]",
-        "source": "Morgania_SFW.css",
-        "image": "Morgania_SFW.png",
+        "name": "Morgania",
+        "source": "Morgania.css",
+        "image": "Morgania.png",
         "apiVersion": 1
       },
       {
-        "name": "Shiro [SFW]",
-        "source": "Shiro_SFW.css",
-        "image": "Shiro_SFW.png",
+        "name": "Shiro",
+        "source": "Shiro.css",
+        "image": "Shiro.png",
         "apiVersion": 1
       },
       {
-        "name": "Jibril [SFW]",
-        "source": "Jibril_SFW.css",
-        "image": "Jibril_SFW.png",
+        "name": "Jibril",
+        "source": "Jibril.css",
+        "image": "Jibril.png",
         "apiVersion": 1
       },
       {
-        "name": "Tsunade [SFW]",
-        "source": "Tsunade_SFW.css",
-        "image": "Tsunade_SFW.png",
+        "name": "Tsunade",
+        "source": "Tsunade.css",
+        "image": "Tsunade.png",
         "apiVersion": 1
       },
       {
@@ -109,9 +109,9 @@
         "apiVersion": 1
       },
       {
-        "name": "Rias [SFW]",
-        "source": "Rias_SFW.css",
-        "image": "Rias_SFW.png",
+        "name": "Rias",
+        "source": "Rias.css",
+        "image": "Rias.png",
         "apiVersion": 1
       },
       {
@@ -139,9 +139,9 @@
         "apiVersion": 1
       },
       {
-        "name": "Erza [SFW]",
-        "source": "Erza_SFW.css",
-        "image": "Erza_SFW.png",
+        "name": "Erza",
+        "source": "Erza.css",
+        "image": "Erza.png",
         "apiVersion": 1
       }
     ]
