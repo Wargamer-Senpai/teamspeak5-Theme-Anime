@@ -14,20 +14,20 @@
 
 /*Image Background Sever Channel Root*/
 .ts-server-tree-item-root {
-    background-image:url(Akeno_backgr.png);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-position: 50% 106%
+    background-image:url(Akeno_backgr.png) !important;
+    background-position:center !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 106% !important;
 }
 /*Image Background at Dashboard and Settings*/
-.ts-background-hexes-container {
+.tsv-settings-categories {
   background-image:url(),
-                   url(Akeno_small.png);
+                   url(Akeno_small.png) !important;
 
 
-    background-position: 50% 106%, -9% 100% ;
-    background-repeat: no-repeat;
-    background-size: 50%, 23% auto;
+    background-position: 50% 106%, -9% 100% !important;
+    background-repeat: no-repeat !important;
+    background-size: 50%, 23% auto !important;
 }
 
 /*Remove image from chat Background*/
