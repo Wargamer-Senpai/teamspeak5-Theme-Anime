@@ -2,6 +2,7 @@
 
 :root {
   --custom-color-accent-light: #ff2323;
+  --custom-color-accent2: #e84e4e;
   /*main accent*/
   --custom-color-accent-dark: #fd434a;
   --custom-color-slider1: #ff0000;
@@ -13,20 +14,20 @@
 
 /*Image Background Sever Channel Root*/
 .ts-server-tree-item-root {
-  background-image: url(Megumin_SFW.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: 60% 103%;
+  background-image: url(Megumin.png) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: 70% !important;
+  background-position: 60% 103% !important;
 }
 
 /*Image Background at Dashboard and Settings*/
-.ts-background-hexes-container {
+.tsv-settings-categories {
   background-image: url(Megumin_konosuba_logo.png),
-    url(Megumin_small.png);
-  background-position: bottom, -01%;
-  background-repeat: no-repeat;
-  background-size: 50%, 15% 50%;
+    url(Megumin_small.png) !important;
+  background-position: bottom, 100% !important;
+  background-repeat: no-repeat !important;
+  background-size: 50%, 61% 50% !important;
 }
 
 /*Remove image from chat Background*/
