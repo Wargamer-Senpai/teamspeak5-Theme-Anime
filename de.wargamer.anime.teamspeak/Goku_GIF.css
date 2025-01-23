@@ -3,6 +3,7 @@
 
 :root {
   --custom-color-accent-light: #8EBBE0; /*main accent*/
+  --custom-color-accent2: #478bc3;
   --custom-color-accent-dark: #8EBBE0;
   --custom-color-slider1: #8EBBE0;
   --custom-color-slider2: #4fa9f3;
@@ -13,20 +14,20 @@
 
 /*Image Background Sever Channel Root*/
 .ts-server-tree-item-root {
-    background-image:url(Goku_backgr.gif); /* https://i.imgur.com/zd49st0.gif  or  https://i.imgur.com/XI98AjS.gif*/
-    background-position:center;
-    background-repeat: no-repeat;
+    background-image:url(Goku_backgr.gif) !important;
+    background-position:bottom !important;
+    background-repeat: no-repeat !important;
 
 }
 /*Image Background at Dashboard and Settings*/
-.ts-background-hexes-container {
+.tsv-settings-categories {
   background-image:url(),
-                   url(Goku_small.png);
+                   url(Goku_small.png) !important;
 
 
-    background-position: 50% 106%, -15% 100% ;
-    background-repeat: no-repeat;
-    background-size: 50%, 35% auto;
+    background-position: 50% 106%, -15% 100% !important;
+    background-repeat: no-repeat !important;
+    background-size: 50%, 100% auto !important;
 }
 
 /*Remove image from chat Background*/
