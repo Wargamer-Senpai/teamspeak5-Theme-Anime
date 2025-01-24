@@ -66,6 +66,7 @@
     --ts-chat-system-highlight-text-color: var(--custom-color-accent-light) !important;
     --tsv-content-branding-fancy-bg: var(--tsv-content-branding-bg) !important;
     --ts-third-font-color: var(--custom-color-accent2) !important;
+    --tsv-button-filled-bg: var(--custom-color-accent2) !important;
 }
 
 div.ts-join-community {
