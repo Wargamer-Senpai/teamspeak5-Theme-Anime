@@ -68,6 +68,11 @@
     --ts-third-font-color: var(--custom-color-accent2) !important;
 }
 
+div.ts-join-community {
+    visibility: hidden;
+    position: fixed;
+}
+
 .ts-server-tree-item-leaf.client.self {
     color: var(--custom-color-accent-light) !important;
 }
