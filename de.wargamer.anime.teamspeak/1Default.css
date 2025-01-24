@@ -69,6 +69,10 @@
     --tsv-button-filled-bg: var(--custom-color-accent2) !important;
 }
 
+.tsv-icon-channel-show-chat {
+    fill: var(--custom-color-accent-dark) !important;
+}
+
 div.ts-join-community {
     visibility: hidden;
     position: fixed;
